@@ -7,6 +7,8 @@ So you want to capture a screenshot of your running server? Just replace the use
 (You have replaced the default password, have you? **Have you?**)
 
 ```
+# You may need to create a Python virtualenv first. Or use Poetry. We will add support of Poetry soonish.
+pip install -r requirements.txt
 ./drac-screenshot.py --user root --password calvin --nodes 2001:db8:de11::11,2001:db8:de11::12
 ```
 
